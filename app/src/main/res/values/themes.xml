@@ -6,4 +6,8 @@
     </style>
 
     <style name="Theme.Lawhive" parent="Base.Theme.Lawhive" />
+
+    <style name="SplashscreenTheme" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
 </resources>
