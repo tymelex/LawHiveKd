@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReferralsPage"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/img">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our Advocates"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:background="#BAD5CD">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/tcrime"
+                        android:layout_height="wrap_content"
+                        android:text="Sir Rashid Mwanda"
+                        android:textSize="25sp"
+                        android:textColor="#fff"
+                        android:textStyle="italic"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"/>
+
+                    <Button
+                        android:id="@+id/crimecall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tcrime"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:backgroundTint="@color/less"
+                        android:text="Call Today"
+                        android:textColor="@color/black"/>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:maxHeight="100dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/criminallaw"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:background="#BAD5CD">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/tfamily"
+                        android:layout_height="wrap_content"
+                        android:text="Dr. Rachel Zane"
+                        android:textSize="25sp"
+                        android:textColor="#fff"
+                        android:textStyle="italic"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"/>
+
+                    <Button
+                        android:id="@+id/familycall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tfamily"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:backgroundTint="@color/less"
+                        android:text="Call Today"
+                        android:textColor="@color/black"/>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:maxHeight="100dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/familyicon"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:background="#BAD5CD">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/tfinance"
+                        android:layout_height="wrap_content"
+                        android:text="Sir Alex Mwangi"
+                        android:textSize="25sp"
+                        android:textColor="#fff"
+                        android:textStyle="italic"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"/>
+
+                    <Button
+                        android:id="@+id/financecall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tfinance"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:backgroundTint="@color/less"
+                        android:text="Call Today"
+                        android:textColor="@color/black"/>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:maxHeight="100dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/financelaw"/>
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:background="#BAD5CD">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/tproperty"
+                        android:layout_height="wrap_content"
+                        android:text="Dr. Peter Kamau"
+                        android:textSize="25sp"
+                        android:textColor="#fff"
+                        android:textStyle="italic"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"/>
+
+                    <Button
+                        android:id="@+id/propertycall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tproperty"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:backgroundTint="@color/less"
+                        android:text="Call Today"
+                        android:textColor="@color/black"/>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:maxHeight="100dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/propertyicon"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

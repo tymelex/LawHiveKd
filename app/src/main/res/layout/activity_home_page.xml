@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+    android:background="@drawable/img">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/articleheading"
+        android:textColor="@color/black"
+        android:padding="@dimen/padding"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textStyle="bold"
+        android:text="LawHive"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/article_subheading"
+        android:layout_below="@+id/articleheading"
+        android:padding="@dimen/padding"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        android:text="Firms Article"
+        android:textStyle="italic"
+        android:textSize="50sp"
+        />
+
+    <Button
+        android:id="@+id/btnknowmore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/article_subheading"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:text="Know More" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+

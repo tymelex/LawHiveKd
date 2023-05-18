@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/img_2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/img_2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lawhive"
+        tools:targetApi="31">
+        <activity
+            android:name=".propertypage"
+            android:exported="false" />
+        <activity
+            android:name=".familypage"
+            android:exported="false" />
+        <activity
+            android:name=".financepage"
+            android:exported="false" />
+        <activity
+            android:name=".crimepage"
+            android:exported="false" />
+        <activity
+            android:name=".ServicesPage"
+            android:exported="false" />
+        <activity
+            android:name=".FirmsArticle"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsPage"
+            android:exported="false" />
+        <activity
+            android:name=".LegalFormPage"
+            android:exported="false" />
+        <activity
+            android:name=".ConfidentialPage"
+            android:exported="false" />
+        <activity
+            android:name=".ReferralsPage"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage"
+            android:exported="false" />
+        <activity
+            android:name=".CreateAccount"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
